@@ -1,0 +1,17 @@
+.header {
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgba(128, 128, 128, 0.251);
+    a {
+      color: black;
+      font-weight: bold;
+      font-size: 20px;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}
